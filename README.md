@@ -181,21 +181,25 @@ __2. API privada las API privadas o cerradas__ son herramientas a las que única
       
       
 __3. HTTP API las HTTP API o web API__ 
+
     • son interfaces diseñadas específicamente para usarse en el desarrollo de sitios web por medio del protocolo de transferencia de hipertexto (HTTP, por sus siglas en inglés). 
     
     • Al desarrollar un sitio, es necesario transferir información de una fuente a otra disponible en la internet. Estas API están optimizadas para ubicar, extraer o aplicar alguna regla o rutina dentro de una página 
       electrónica o en un servidor que funcione en la red.
 
 __4. SOAP API las SOAP API__
+
     • API de protocolo simple de acceso a objetos consisten en una serie de pautas que permiten a un programa acceder a información básica de otra ubicación. 
     
     • Estas API no proveen archivos o datos de otros repositorios. Solamente dan las indicaciones que regulan la extracción e integración de estos elementos de manera segura. 
 
 __5. RESTful API__
+
     • Las RESTful API o API de transferencia de estado representacional son interfaces que sirven para hacer llamados a un estilo específico de arquitectura de software basado en el contenido multimedia.
     
     • Las API de este tipo son excelentes para el diseño de plataformas más complejas, como las aplicaciones móviles, que requieren la integración de tablas, imágenes y videos. Extraen la información solicitada y la 
       arrojan o integran al software.
+      
 
 [Enlace](https://www.sydle.com/es/blog/api-6214f68876950e47761c40e7)
 [Enlace](https://blog.hubspot.es/website/que-como-usar-api)
