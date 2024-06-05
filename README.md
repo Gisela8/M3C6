@@ -17,6 +17,7 @@ El cuerpo de la clase contiene definiciones de métodos y atributos, que pueden 
 				PRINT(“HOLA, MI NOMBRE ES”+SELF.NOMBRE)’
 
 __Ventajas__
+
     • Reutilización de código: 
     • las clases pueden reutilizarse en diferentes partes del programa o en distintos programas, lo que ahorra tiempo y reduce la duplicación de código.
     • Encapsulación: permiten ocultar la complejidad de un objeto y exponer solo una interfaz simple y fácil de usar para interactuar con él.
@@ -24,11 +25,13 @@ __Ventajas__
     • Polimorfismo: ayudan a implementar el mismo conjunto de métodos con diferentes comportamientos para distintos tipos de objetos, lo que permite una mayor flexibilidad y extensibilidad en el diseño de programas.
       
 __Desventajas__
+
     • Sobrecarga de complejidad: las clases pueden agregar complejidad adicional a un programa y hacer que sea más difícil de entender y depurar.
     • Curva de aprendizaje: el aprendizaje de las clases y la programación orientada a objetos en general pueden requerir una curva de aprendizaje más pronunciada para los programadores principiantes.
     • Uso innecesario: a veces, las clases se utilizan innecesariamente en situaciones en las que una función simple podría haber hecho el trabajo de manera más eficiente.
       
 __Atributos en las clases de Python__
+
     • Un atributo es una variable que se define dentro de una clase, la cual almacena datos que pertenecen a un objeto de esa clase. 
     • Los atributos se utilizan para representar características o propiedades de un objeto, como su estado actual, su identificador, su tamaño, su color, etc.
     • Los atributos pueden ser de diferentes tipos de datos, como enteros, flotantes, cadenas, listas, diccionarios, entre otros. 
@@ -70,7 +73,8 @@ __Los tres tipos principales de atributos son:__
       
     • Cuando se crea una instancia de una clase, el método __init__es llamado automáticamente por el intérprete de Python y se utiliza para realizar cualquier inicialización que sea necesaria para la instancia.
       
-    • Se usa para asignar valores iniciales a los atributos de una instancia de la clase. Los atributos son las variables que pertenecen a una instancia particular de la clase. Al llamar al método __init__, podemos establcer valores de estos atributos y configurar la instancia de la clase para su uso posterior.
+    • Se usa para asignar valores iniciales a los atributos de una instancia de la clase. Los atributos son las variables que pertenecen a una instancia particular de la clase. Al llamar al método __init__, podemos 	 
+       establcer valores de estos atributos y configurar la instancia de la clase para su uso posterior.
       
     • Si se quiere crear una clase llamada Persona con dos atributos nombre y edad podriamos definir la clase de la siguiente manera 
 		‘CLASE PERSONA:
@@ -92,10 +96,14 @@ __Los tres tipos principales de atributos son:__
 ## ¿Cuáles son los tres verbos de API? 
 
 Los verbos más utilizados son los siguientes:
-    • GET: se utiliza para recuperar o consultar, desde un recurso. 
-    • POST: creación de un recurso, es 
+    • GET: se utiliza para recuperar o consultar, desde un recurso.
+
+    • POST: creación de un recurso
+    
     • PUT: modificación total de un recurso.
+    
     • PATCH: modificación parcial de un recurso.
+    
     • DELETE: eliminación de un recurso, sirve para un dato, como para un conjunto de datos
 
 [Enlaces](https://blog.hubspot.es/website/que-es-api-rest)
