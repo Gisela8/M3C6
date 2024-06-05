@@ -87,16 +87,14 @@ __Los tres tipos principales de atributos son:__
  	CuentaBancaria, podemos hacerlo de la siguiente manera:
   
 	"En este caso, «__saldo» es un atributo privado de la clase CuentaBancaria, que solo se 	
- 	puede acceder a él desde dentro de la clase. Si se intenta acceder a este atributo desde 
-        fuera de la clase se producirá un error.
+ 	puede acceder a él desde dentro de la clase. Si se intenta acceder a este atributo desde fuera de la clase se producirá un error.
 
-    •   Atributos protegidos: solo se puede acceder a ellos desde dentro de la clase en la que se definen y 
-        desde las clases derivadas (heredadas) de esa clase. 
-        En Python, los atributos protegidos se definen mediante el prefijo "__" seguido del nombre del atributo. 
+    •   Atributos protegidos: solo se puede acceder a ellos desde dentro de la clase en la que se definen y desde las clases 
+    derivadas (heredadas) de esa clase.
+    En Python, los atributos protegidos se definen mediante el prefijo "__" seguido del nombre del atributo. 
 	Sin embargo, en Python no existe un verdadero modificador de acceso protegido como en otros lenguajes 
  	de programación orientados a objetos, por lo que el uso del prefijo ""
-	es una convención para indicar que un atributo está protegido, pero aún es posible acceder a 
-        él desde fuera de la clase.
+	es una convención para indicar que un atributo está protegido, pero aún es posible acceder a él desde fuera de la clase.
 
 
 
