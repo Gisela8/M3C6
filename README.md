@@ -160,7 +160,7 @@ Los verbos más utilizados son los siguientes:
     • Las bases de datos NoSQL no utilizan ni tablas ni registros como harían las bases de datos relacionales 
       como SQL; no necesitan una estructura fija
     . 
-    • Esto da más flexibilidad a la hora de diseñar el schema y sus relaciones. Hay una gran variedad de bases 
+    • Esto da más flexibilidad a la hora de diseñar el esquema y sus relaciones. Hay una gran variedad de bases 
      de datos NoSQL como MongoDB, Cassandra, CouchDB y muchos más. 
       
 
@@ -213,20 +213,20 @@ __2. API privada las API privadas o cerradas__ son herramientas a las que única
      han sido autorizados para ello.
 
     • Estas aplicaciones generalmente están diseñadas para el funcionamiento de una empresa en particular, por lo que sirven
-      para hacer llamados a datos de un área, aplicar reglas definidas o establecer formatos preexistentes y propios de una organización. 
+      para hacer llamadas a datos de un área, aplicar reglas definidas o establecer formatos preexistentes y propios de una organización. 
     
-    • Estas API cuentan con gateways (o puertas) cerradas que solo permiten el acceso a quienes se identifican como 
+    • Estas API cuentan con gateways o puertas cerradas que solo permiten el acceso a quienes se identifican como 
       parte del grupo o usuarios.
       
       
 __3. HTTP API las HTTP API o web API__ 
 
     • son interfaces diseñadas específicamente para usarse en el desarrollo de sitios web por medio del protocolo de 
-      transferencia de hipertexto (HTTP, por sus siglas en inglés). 
+      transferencia de hipertexto (HTTP). 
     
-    • Al desarrollar un sitio, es necesario transferir información de una fuente a otra disponible en la internet. 
+    • Al desarrollar un sitio, es necesario transferir información de una fuente a otra disponible en internet. 
       Estas API están optimizadas para ubicar, extraer o aplicar alguna regla o rutina dentro de una página 
-      electrónica o en un servidor que funcione en la red.
+      o en un servidor que funcione en la red.
 
 __4. SOAP API las SOAP API__
 
@@ -243,7 +243,7 @@ __5. RESTful API__
     
     • Las API de este tipo son excelentes para el diseño de plataformas más complejas, como las aplicaciones móviles, 
       que requieren la integración de tablas, imágenes y videos. Extraen la información solicitada y la 
-      arrojan o integran al software.
+      integran al software.
       
 
 [Enlace](https://www.sydle.com/es/blog/api-6214f68876950e47761c40e7)
@@ -256,7 +256,7 @@ __5. RESTful API__
 ## ¿Qué es Postman?
 
     • Postman es una herramienta de desarrollo de API (interfaz de programación de aplicaciones) que ayuda a crear, 
-      probar y modificar API . Casi cualquier funcionalidad que pueda se pueda necesitar está encapsulada en 
+      probar y modificar APIs. Casi cualquier funcionalidad que se pueda necesitar está encapsulada en 
       esta herramienta
       
     • Postman en sus inicios nace como una extensión que podía ser utilizada en el navegador Chrome de Google y 
@@ -275,15 +275,13 @@ __Utilidad y ventajas__
     
     • Organizar en carpetas, funcionalidades y módulos los servicios web.
     
-    • Permite gestionar el ciclo de vida (conceptualización y definición, desarrollo, monitoreo y mantenimiento) de nuestra API.
+    • Permite gestionar el ciclo de vida (conceptualización y definición, desarrollo, monitoreo y mantenimiento) de una API.
     
     • Generar documentación de  APIs.
     
     • Trabajar con entornos (calidad, desarrollo, producción) y de este modo es posible compartir a través de un 
       entorno cloud la información.
-    
-    • Cuenta con una comunidad grande de usuarios.
-    
+       
     • Cuenta con una extensión para el navegador web Google Chrome.
     
     • Es posible agregar scripts (JavaScript) para añadir validaciones, automatizar y/o configurar pruebas.
@@ -353,8 +351,6 @@ __Utilidad y ventajas__
     
     • El polimorfismo en Python ofrece varias cualidades , como es la reutilización de códigos escritos para diferentes clases y métodos.
     
-    • Una clase secundaria es una clase derivada y obtiene sus atributos de la clase principal.
-    
     • El polimorfismo también se logra mediante la anulación de métodos en tiempo de ejecución y la sobrecarga de métodos en tiempo de compilación.
 
 
@@ -399,12 +395,12 @@ __Utilidad y ventajas__
     • Se utilizan para extender el comportamiento de un objeto en particular, como una clase, método o función. 
     
     • Sintaxis de los Decoradores en Python. La sintaxis de un decorador en Python es bastante simple. Comienza con la palabra clave 'def' 
-      para definir una función, seguida de una (@) y el nombre del decorador. Después 
-      de eso, se puede añadir cualquier argumento necesario y luego pasar la función de destino como argumento.
+      para definir una función, seguida de una (@) y el nombre del decorador. Después de eso, se puede añadir cualquier argumento necesario y 
+      luego pasar la función de destino como argumento.
 
 __Los decoradores de clase__
 
-    • permiten extender el comportamiento de una clase sin cambiar el código fuente original; trabajan sobre clases en lugar. 
+    • permiten extender el comportamiento de una clase sin cambiar el código fuente original;  
       Toman una clase como entrada y devuelven una nueva clase con un comportamiento modificado o 
       ampliado. 
       
@@ -440,6 +436,8 @@ __Decoradores con argumentos__
     
     • Estos decoradores aceptan argumentos y devuelven otra función , que a su vez toma la función o clase como entrada y 
       devuelve la función o clase modificada.
+
+       Ejemplo:
 
 	‘def class_decorator(cls):
 
