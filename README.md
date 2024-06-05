@@ -104,6 +104,7 @@ __Los tres tipos principales de atributos son:__
 ## ¿Cuáles son los tres verbos de API? 
 
 Los verbos más utilizados son los siguientes:
+
     • GET: se utiliza para recuperar o consultar, desde un recurso.
 
     • POST: creación de un recurso
